@@ -5,9 +5,9 @@ import product2 from "@/assets/product-2.jpg";
 import product3 from "@/assets/product-3.jpg";
 
 const products = [
-  { image: product1, name: "Essence Sérum", price: "$78.00", category: "Skincare" },
-  { image: product2, name: "Ritual Balm", price: "$62.00", category: "Body Care" },
-  { image: product3, name: "Noir Crème", price: "$54.00", category: "Skincare" },
+  { image: product1, name: "Essence Sérum", price: "₹6,499", category: "Skincare" },
+  { image: product2, name: "Ritual Balm", price: "₹5,199", category: "Body Care" },
+  { image: product3, name: "Noir Crème", price: "₹4,499", category: "Skincare" },
 ];
 
 const FeaturedProducts = () => {
