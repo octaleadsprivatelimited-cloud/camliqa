@@ -35,7 +35,7 @@ const FeaturedProducts = () => {
           </a>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-12">
           {products.map((product, index) => (
             <ProductCard key={product.name} {...product} index={index} />
           ))}
