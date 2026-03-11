@@ -32,7 +32,11 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-primary-foreground/40 font-body tracking-wider">© 2026 Camliqa. All rights reserved.</p>
+          <div className="flex flex-col md:flex-row items-center gap-2 text-xs text-primary-foreground/40 font-body tracking-wider">
+            <p>© 2026 Camliqa. All rights reserved.</p>
+            <span className="hidden md:inline">|</span>
+            <p>Developed By octaleads Pvt Ltd.</p>
+          </div>
           <div className="flex gap-6 text-xs text-primary-foreground/40 font-body tracking-wider">
             <a href="#" className="hover:text-primary-foreground/70 transition-colors">Privacy</a>
             <a href="#" className="hover:text-primary-foreground/70 transition-colors">Terms</a>
