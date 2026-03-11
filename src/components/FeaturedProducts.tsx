@@ -3,11 +3,13 @@ import ProductCard from "./ProductCard";
 import product1 from "@/assets/product-1.jpg";
 import product2 from "@/assets/product-2.jpg";
 import product3 from "@/assets/product-3.jpg";
+import product4 from "@/assets/product-4.jpg";
 
 const products = [
   { image: product1, name: "Essence Sérum", price: "₹6,499", category: "Skincare" },
   { image: product2, name: "Ritual Balm", price: "₹5,199", category: "Body Care" },
   { image: product3, name: "Noir Crème", price: "₹4,499", category: "Skincare" },
+  { image: product4, name: "Vaseline", price: "₹399", category: "Body Care" },
 ];
 
 const FeaturedProducts = () => {
