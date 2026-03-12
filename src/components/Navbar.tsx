@@ -27,8 +27,8 @@ const Navbar = () => {
           <a href="#" className="hover:text-foreground transition-colors duration-300">About</a>
         </div>
 
-        <a href="/" className="absolute left-1/2 -translate-x-1/2 font-display text-2xl lg:text-3xl font-light tracking-[0.2em] text-foreground">
-          CAMLIQA
+        <a href="/" className="absolute left-1/2 -translate-x-1/2">
+          <img src={camliqaLogo} alt="Camliqa" className="h-10 lg:h-12 w-auto" />
         </a>
 
         <div className="flex items-center gap-6 text-sm tracking-widest uppercase font-body text-muted-foreground">
