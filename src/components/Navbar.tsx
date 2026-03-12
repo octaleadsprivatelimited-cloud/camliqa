@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ShoppingBag, Menu } from "lucide-react";
 import { useState } from "react";
+import camliqaLogo from "@/assets/camliqa-logo.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
