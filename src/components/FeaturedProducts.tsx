@@ -1,15 +1,27 @@
 import { motion } from "framer-motion";
 import ProductCard from "./ProductCard";
-import product1 from "@/assets/product-1.jpg";
-import product2 from "@/assets/product-2.jpg";
-import product3 from "@/assets/product-3.jpg";
-import product4 from "@/assets/product-4.jpg";
+import grapeSeedFaceWash from "@/assets/grape-seed-face-wash.jpg";
+import redSandalSoap from "@/assets/red-sandal-soap.jpg";
+import aloeveraFaceWash from "@/assets/aloevera-face-wash.jpg";
+import sunnipindiSoap from "@/assets/sunnipindi-soap.jpg";
+import brighteningCream from "@/assets/brightening-cream.jpg";
+import moisturizingCream from "@/assets/moisturizing-cream.jpg";
+import goldCream from "@/assets/gold-cream.jpg";
+import fruitMixCream from "@/assets/fruit-mix-cream.jpg";
+import papayaFacePack from "@/assets/papaya-face-pack.jpg";
+import scrubPowder from "@/assets/scrub-powder.jpg";
 
 const products = [
-  { image: product1, name: "Essence Sérum", price: "₹6,499", category: "Skincare" },
-  { image: product2, name: "Ritual Balm", price: "₹5,199", category: "Body Care" },
-  { image: product3, name: "Noir Crème", price: "₹4,499", category: "Skincare" },
-  { image: product4, name: "Vaseline", price: "₹399", category: "Body Care" },
+  { image: grapeSeedFaceWash, name: "Grape Seed Face Wash", price: "₹299", category: "Face Wash" },
+  { image: aloeveraFaceWash, name: "Aloevera & Tea Tree Face Wash", price: "₹299", category: "Face Wash" },
+  { image: redSandalSoap, name: "Red Sandal & Olive Oil Soap", price: "₹149", category: "Soap" },
+  { image: sunnipindiSoap, name: "Sunnipindi & Olive Oil Soap", price: "₹149", category: "Soap" },
+  { image: brighteningCream, name: "Brightening Cream", price: "₹499", category: "Cream" },
+  { image: moisturizingCream, name: "Moisturizing Cream", price: "₹499", category: "Cream" },
+  { image: goldCream, name: "Gold Cream", price: "₹599", category: "Cream" },
+  { image: fruitMixCream, name: "Fruit Mix Cream", price: "₹599", category: "Cream" },
+  { image: papayaFacePack, name: "Papaya Face Pack", price: "₹199", category: "Face Pack" },
+  { image: scrubPowder, name: "Body Cleansing Scrub Powder", price: "₹149", category: "Scrub" },
 ];
 
 const FeaturedProducts = () => {
@@ -37,7 +49,7 @@ const FeaturedProducts = () => {
           </a>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-12">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-8">
           {products.map((product, index) => (
             <ProductCard key={product.name} {...product} index={index} />
           ))}
